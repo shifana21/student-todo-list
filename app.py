@@ -6,7 +6,7 @@ import requests
 # Configuration
 # -----------------------------------
 
-API_URL = "http://127.0.0.1:8000/api/tasks/"
+API_URL = st.secrets["API_URL"]
 
 
 st.set_page_config(
